@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\bin\Debug\net8.0\Week3Assignment.exe
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\bin\Debug\net8.0\Week3Assignment.deps.json
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\bin\Debug\net8.0\Week3Assignment.runtimeconfig.json
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\bin\Debug\net8.0\Week3Assignment.dll
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\bin\Debug\net8.0\Week3Assignment.pdb
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\Week3Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\Week3Assignment.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\Week3Assignment.AssemblyInfo.cs
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\Week3Assignment.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\Week3Assignment.dll
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\refint\Week3Assignment.dll
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\Week3Assignment.pdb
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\Week3Assignment.genruntimeconfig.cache
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\ref\Week3Assignment.dll
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\bin\Debug\net8.0\ConsoleTables.dll
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\Week3Assignment.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Decagon classes\Week3Assignment\Week3Assignment\obj\Debug\net8.0\Week3Ass.9F951E7D.Up2Date
