@@ -12,17 +12,39 @@ namespace Week3Assignment
         List<Course> courselist = new List<Course>(){};
         public void UserInput()
         {
-            Console.WriteLine("Please input your Course name/code (e.g: Maths-101)");
-            string courseName = Console.ReadLine();
-            Console.WriteLine("Please input your Course Unit?");
-            int courseUnit = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please input what you scored?");
-            int score = int.Parse(Console.ReadLine());
-            int gradeUnit = GradeUnit(score);
-            int qualityPoint = CalcQualityPoint(courseUnit, gradeUnit);
-            char grade = Grade(score);
-            //var course = new Course(courseName, courseUnit, score, grade, gradeUnit,qualityPoint);  
-            courselist.Add(new Course(courseName,courseUnit,score,grade,gradeUnit,qualityPoint));
+                Console.WriteLine("Please input your Course name (e.g: Maths-101)");
+    string courseName = Console.ReadLine();
+    again:
+    Console.WriteLine("Please input your Course code (e.g: 101)");
+    int courseCode;
+    if (!int.TryParse(Console.ReadLine(), out courseCode))
+    {
+        Console.WriteLine("The input is invalid, Please enter a positive integer greater than Zero");
+        goto again;
+    }
+    
+    string courses = courseName + " " + courseCode.ToString();
+Goback:
+    Console.WriteLine("Please input your Course Unit?");
+    int courseUnit;
+    if (!int.TryParse(Console.ReadLine(), out courseUnit))
+    {
+        Console.WriteLine("The input is invalid, Please enter a positive integer greater than Zero");
+        goto Goback;
+    }
+decide:
+    Console.WriteLine("Please input what you scored?");
+    int score;
+    if(!int.TryParse(Console.ReadLine(),out score))
+    {
+        Console.WriteLine("The input is invalid, Please enter a positive integer greater than Zero");
+        goto decide;
+    }
+    int gradeUnit = GradeUnit(score);
+    int qualityPoint = CalcQualityPoint(courseUnit, gradeUnit);
+    char grade = Grade(score);
+    //var course = new Course(courseName, courseUnit, score, grade, gradeUnit,qualityPoint);  
+    courselist.Add(new Course(courses,courseUnit,score,grade,gradeUnit,qualityPoint));
 
         }
 
