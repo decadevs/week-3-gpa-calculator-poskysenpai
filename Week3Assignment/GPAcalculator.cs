@@ -17,7 +17,7 @@ namespace Week3Assignment
     again:
     Console.WriteLine("Please input your Course code (e.g: 101)");
     int courseCode;
-    if (!int.TryParse(Console.ReadLine(), out courseCode))
+    if (!int.TryParse(Console.ReadLine(), out courseCode)|| courseCode <= 0)
     {
         Console.WriteLine("The input is invalid, Please enter a positive integer greater than Zero");
         goto again;
@@ -27,7 +27,7 @@ namespace Week3Assignment
 Goback:
     Console.WriteLine("Please input your Course Unit?");
     int courseUnit;
-    if (!int.TryParse(Console.ReadLine(), out courseUnit))
+    if (!int.TryParse(Console.ReadLine(), out courseUnit) || courseUnit <= 0)
     {
         Console.WriteLine("The input is invalid, Please enter a positive integer greater than Zero");
         goto Goback;
@@ -35,7 +35,7 @@ Goback:
 decide:
     Console.WriteLine("Please input what you scored?");
     int score;
-    if(!int.TryParse(Console.ReadLine(),out score))
+    if(!int.TryParse(Console.ReadLine(),out score)|| score <= 0)
     {
         Console.WriteLine("The input is invalid, Please enter a positive integer greater than Zero");
         goto decide;
