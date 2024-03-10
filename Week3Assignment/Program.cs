@@ -16,8 +16,15 @@ namespace h
             Console.WriteLine("What is your Name ?");
             string name = Console.ReadLine();
 
+                        decide:
             Console.WriteLine($"Hello! {name} How many Courses do you offer?");
-            int num = int.Parse(Console.ReadLine());
+            int num;
+            if(!int.TryParse(Console.ReadLine(), out num)|| num <= 0)
+            {
+                Console.WriteLine("The input is invalid, Please enter a positive integer greater than Zero");
+                goto decide;
+
+            }
 
             GPAcalculator gPAcalculator = new GPAcalculator();
 
